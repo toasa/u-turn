@@ -7,7 +7,8 @@ $ sudo ./main
 TUN device tun0 allocated. Waiting for packets...
 ```
 
-別ターミナルを開き、nc で UDP パケットを投げる：
+別ターミナルを開き、TUN デバイス (tun0) にIP アドレス付与とリンクアップを行い (setup.sh)、
+nc で UDP パケットを投げる：
 
 ```
 $ ./setup.sh
